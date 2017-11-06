@@ -8,7 +8,7 @@ ALAN.TurnDownForWhat=function(){
 	document.body.appendChild(a)
 }
 ALAN.imageSwitched=function(){
-	imageLocation='/img/pics/'
+	imageLocation='Website/img/pics/'
 	images=['animatedClouds.gif','prettyLights.jpg','animatedLights.gif']
 	counter=Math.floor(Math.random() * images.length)
 	displayNextImage()
